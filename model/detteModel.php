@@ -10,3 +10,9 @@ function jsonToarray(string $key=null) {
     function findAllDettes(){
         return jsonToarray('dettes');
     }
+
+
+    function findAllProduit(): array{
+        return jsonToarray('articles');
+     
+    }
