@@ -1,0 +1,104 @@
+{
+    "clients": [
+        {
+            "id": 1,
+            "telephone": "123456789",
+            "nom": "John",
+            "prenom": "Doe",
+            "adresse": "123 Rue de Paris"
+        },
+        {
+            "id": 2,
+            "telephone": "987654321",
+            "nom": "Jane",
+            "prenom": "Smith",
+            "adresse": "456 Avenue de Lyon"
+        },
+        {
+            "id": 1741881634,
+            "telephone": "777777777",
+            "nom": "new",
+            "prenom": "new",
+            "adresse": ""
+        },
+        {
+            "id": 1741881864,
+            "telephone": "123456786",
+            "nom": "new2",
+            "prenom": "azjhd",
+            "adresse": ""
+        },
+        {
+            "id": 1741881920,
+            "telephone": "123456784",
+            "nom": "new3",
+            "prenom": "qhceb",
+            "adresse": ""
+        },
+        {
+            "id": 1741881959,
+            "telephone": "123456781",
+            "nom": "ezjfgy",
+            "prenom": "zejbh",
+            "adresse": "qazkejf"
+        }
+    ],
+    "dettes": [
+        {
+            "id": 1,
+            "client_id": 1,
+            "montant": 150,
+            "date": "2025-03-01",
+            "etat": "Restant",
+            "articles": [
+                {
+                    "reference": "A001",
+                    "libelle": "Produit A",
+                    "quantite": 2,
+                    "prix": 50
+                },
+                {
+                    "reference": "B002",
+                    "libelle": "Produit B",
+                    "quantite": 1,
+                    "prix": 50
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "client_id": 2,
+            "montant": 200,
+            "date": "2025-03-02",
+            "etat": "Solde",
+            "articles": [
+                {
+                    "reference": "C003",
+                    "libelle": "Produit C",
+                    "quantite": 3,
+                    "prix": 40
+                }
+            ]
+        }
+    ],
+    "articles": [
+        {
+            "reference": "A001",
+            "libelle": "Produit A",
+            "quantite_stock": 10,
+            "prix": 50
+        },
+        {
+            "reference": "B002",
+            "libelle": "Produit B",
+            "quantite_stock": 5,
+            "prix": 50
+        },
+        {
+            "reference": "C003",
+            "libelle": "Produit C",
+            "quantite_stock": 7,
+            "prix": 40
+        }
+    ]
+}
