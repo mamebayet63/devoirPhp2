@@ -4,7 +4,7 @@
         <nav class="bg-gradient-to-r from-blue-500 to-purple-600 px-8 py-3 rounded-full">
             <ul class="flex space-x-6">
                 <li><a href="<?= WEBROOT?>?controller=client" class="hover:text-gray-300">Client</a></li>
-                <li><a href="<?= WEBROOT?>?controller=commande&page=allcommande" class="hover:text-gray-300">Dette</a></li>
+                <li><a href="<?= WEBROOT?>?controller=dette&page=alldette" class="hover:text-gray-300">Dette</a></li>
                 
             </ul>
         </nav>

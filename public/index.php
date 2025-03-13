@@ -11,6 +11,7 @@ require_once( ROOT_PATH . "/model/model.php"); // Charger le modèle
 $controllers = [
     // "commande" => "commande.controller.php",
     "client"   => "client.controller.php",
+    "dette" => "dette.controller.php"
 ];
 
 // Récupérer le contrôleur demandé, ou utiliser "security" par défaut
