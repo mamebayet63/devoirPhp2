@@ -44,17 +44,7 @@ function handleAjoutPage() {
     
     function addDette($nom_client, $telephone_client, $montant, $date_echeance, $description) {
         // Exemple de requête SQL pour insérer la dette dans la base de données
-        $query = "INSERT INTO dettes (nom_client, telephone_client, montant, date_echeance, description)
-                  VALUES (:nom_client, :telephone_client, :montant, :date_echeance, :description)";
         
-        $stmt = $pdo->prepare($query);
-        return $stmt->execute([
-            ':nom_client' => $nom_client,
-            ':telephone_client' => $telephone_client,
-            ':montant' => $montant,
-            ':date_echeance' => $date_echeance,
-            ':description' => $description
-        ]);
     }
     
     require_once("../views/dettes/ajoutDette.html.php");
